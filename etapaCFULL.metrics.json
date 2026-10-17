@@ -1,0 +1,1921 @@
+{
+  "dataset": "datos\\data2.txt",
+  "replay_dataset": null,
+  "steps_this_run": 14400,
+  "global_step": 14400,
+  "autosave": true,
+  "autosave_stage": "manual_interrupt",
+  "autosave_interval": 20000,
+  "interrupted_by_user": true,
+  "final_config": {
+    "capacity": 64,
+    "depth": 3,
+    "d_model": 64,
+    "heads": 4,
+    "context": 384,
+    "vocab_size": 256
+  },
+  "last_training_loss": 2.3326597213745117,
+  "train_probe_loss_at_save": 2.438756261636247,
+  "validation_loss_at_save": 2.4921851389438165,
+  "initial_eval": {
+    "datos\\data2.txt [holdout 5%]": 5.696283527130841
+  },
+  "cultivation_control": {
+    "version": 1,
+    "eval_signature": [
+      "datos\\data2.txt [holdout 5%]"
+    ],
+    "baseline_eval": {
+      "datos\\data2.txt [holdout 5%]": 5.696283527130841
+    },
+    "best_domain_losses": {
+      "datos\\data2.txt [holdout 5%]": 2.4921851389438165
+    },
+    "best_macro_losses": {
+      "datos\\data2.txt [holdout 5%]": 2.4921851389438165
+    },
+    "best_macro_score": 0.4375107255588284,
+    "best_checkpoint_score": 0.4375107255588284,
+    "patience_reference_score": 0.4375107255588284,
+    "stale_evaluations": 0,
+    "total_evaluations": 71,
+    "evaluations_since_growth": 0,
+    "growth_validation_history": [],
+    "growth_train_history": [],
+    "evaluation_history": [
+      {
+        "global_step": 200,
+        "macro_score": 0.6879069512295418,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 3.918513034487638
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.6879069512295418
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 32,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 400,
+        "macro_score": 0.5768907509485521,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 3.2861332815823783
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.5768907509485521
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 32,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 600,
+        "macro_score": 0.5618218054558342,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 3.2002962956009764
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.5618218054558342
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 32,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 800,
+        "macro_score": 0.5445611152868983,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 3.101974510524758
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.5445611152868983
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 32,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 1000,
+        "macro_score": 0.5299031733092572,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 3.0184787170958813
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.5299031733092572
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 32,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 1200,
+        "macro_score": 0.5182007802658747,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.9518185683748506
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.5182007802658747
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 32,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 1400,
+        "macro_score": 0.5096586220000572,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.90316001295913
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.5096586220000572
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 32,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 1600,
+        "macro_score": 0.5026551831165482,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.86326643941373
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.5026551831165482
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 32,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 1800,
+        "macro_score": 0.49678048872559566,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.829802514527619
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.49678048872559566
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 32,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 2000,
+        "macro_score": 0.49161479984681633,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.8003772860611456
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.49161479984681633
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 32,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 2200,
+        "macro_score": 0.48764198497088745,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.7777470061270515
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.48764198497088745
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 32,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 2400,
+        "macro_score": 0.48359706301852495,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.754705983841279
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.48359706301852495
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 32,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 2600,
+        "macro_score": 0.48049058712719944,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.7370106163940924
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.48049058712719944
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 32,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 2800,
+        "macro_score": 0.4778774758806781,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.7221255938459725
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4778774758806781
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 32,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 3000,
+        "macro_score": 0.47514354658225433,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.706552357419021
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.47514354658225433
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 32,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 3200,
+        "macro_score": 0.4731325525315857,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.695097165135039
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4731325525315857
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 32,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 3400,
+        "macro_score": 0.47097059048999074,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.6827820163712195
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.47097059048999074
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 32,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 3600,
+        "macro_score": 0.46913074808281224,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.672301752374692
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.46913074808281224
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 32,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 3800,
+        "macro_score": 0.4674224650619643,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.6625708879433585
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4674224650619643
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 32,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 4000,
+        "macro_score": 0.46612159128205427,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.6551607420599805
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.46612159128205427
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 32,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 4200,
+        "macro_score": 0.4648353760834067,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.647834095611579
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4648353760834067
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 32,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 4400,
+        "macro_score": 0.4634807316423235,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.6401176567967175
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4634807316423235
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 4600,
+        "macro_score": 0.4621792708998166,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.632704167407968
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4621792708998166
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 4800,
+        "macro_score": 0.46125268334300534,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.6274260619716596
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.46125268334300534
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 1
+      },
+      {
+        "global_step": 5000,
+        "macro_score": 0.460436678414932,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.622777866541818
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.460436678414932
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 5200,
+        "macro_score": 0.45916358229796983,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.615525950102312
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.45916358229796983
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 5400,
+        "macro_score": 0.4584361914542832,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.611382525621634
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4584361914542832
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 1
+      },
+      {
+        "global_step": 5600,
+        "macro_score": 0.4576758355001309,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.6070513225252405
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4576758355001309
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 5800,
+        "macro_score": 0.4570394466411302,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.603426271150865
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4570394466411302
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 1
+      },
+      {
+        "global_step": 6000,
+        "macro_score": 0.4564595129443387,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.6001228043870035
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4564595129443387
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 6200,
+        "macro_score": 0.45572382514079135,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.5959321180705457
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.45572382514079135
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 1
+      },
+      {
+        "global_step": 6400,
+        "macro_score": 0.45541678474146186,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.5941831289016815
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.45541678474146186
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 1
+      },
+      {
+        "global_step": 6600,
+        "macro_score": 0.4545792232943982,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.589412141427813
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4545792232943982
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 6800,
+        "macro_score": 0.4536935089215404,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.58436686123596
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4536935089215404
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 1
+      },
+      {
+        "global_step": 7000,
+        "macro_score": 0.4529022970189184,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.5798598939085844
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4529022970189184
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 7200,
+        "macro_score": 0.4523050133413825,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.576457596735213
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4523050133413825
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 1
+      },
+      {
+        "global_step": 7400,
+        "macro_score": 0.45172787298537087,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.5731700416324212
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.45172787298537087
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 7600,
+        "macro_score": 0.45133106058993805,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.570909685720956
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.45133106058993805
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 1
+      },
+      {
+        "global_step": 7800,
+        "macro_score": 0.45045653834008026,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.5659281590349816
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.45045653834008026
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 8000,
+        "macro_score": 0.4511641853233493,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.5699591168888007
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4511641853233493
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 1
+      },
+      {
+        "global_step": 8200,
+        "macro_score": 0.45011564627185807,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.563986341162238
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.45011564627185807
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 2
+      },
+      {
+        "global_step": 8400,
+        "macro_score": 0.44968824512920264,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.561551743073853
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.44968824512920264
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 3
+      },
+      {
+        "global_step": 8600,
+        "macro_score": 0.4489047920535965,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.5570889722249976
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4489047920535965
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 8800,
+        "macro_score": 0.4480198344662065,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.5520480028977386
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4480198344662065
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 1
+      },
+      {
+        "global_step": 9000,
+        "macro_score": 0.4469167733851926,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.54576465423254
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4469167733851926
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 9200,
+        "macro_score": 0.446486889072321,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.543315911302557
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.446486889072321
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 1
+      },
+      {
+        "global_step": 9400,
+        "macro_score": 0.4456154676090288,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.538352047576018
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4456154676090288
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 9600,
+        "macro_score": 0.4503082961003015,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.5650837292065045
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4503082961003015
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 1
+      },
+      {
+        "global_step": 9800,
+        "macro_score": 0.44937139662110176,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.559746884136562
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.44937139662110176
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 2
+      },
+      {
+        "global_step": 10000,
+        "macro_score": 0.44847181574481215,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.5546226164096315
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.44847181574481215
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 3
+      },
+      {
+        "global_step": 10200,
+        "macro_score": 0.44721142417564863,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.5474430686764706
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.44721142417564863
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 4
+      },
+      {
+        "global_step": 10400,
+        "macro_score": 0.4462345754501192,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.5418786613727384
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4462345754501192
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 5
+      },
+      {
+        "global_step": 10600,
+        "macro_score": 0.44553307287370614,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.537882703802477
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.44553307287370614
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 6
+      },
+      {
+        "global_step": 10800,
+        "macro_score": 0.44472463598412487,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.5332776180656302
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.44472463598412487
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 7
+      },
+      {
+        "global_step": 11000,
+        "macro_score": 0.44449119282286137,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.531947859631604
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.44449119282286137
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 11200,
+        "macro_score": 0.44367176919582907,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.527280190323198
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.44367176919582907
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 1
+      },
+      {
+        "global_step": 11400,
+        "macro_score": 0.4432936212486542,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.5251261524008872
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4432936212486542
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 11600,
+        "macro_score": 0.44276822983340614,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.5221333739369136
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.44276822983340614
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 1
+      },
+      {
+        "global_step": 11800,
+        "macro_score": 0.4426610078399052,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.521522607061588
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4426610078399052
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 2
+      },
+      {
+        "global_step": 12000,
+        "macro_score": 0.44204944437931365,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.5180389681952255
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.44204944437931365
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 12200,
+        "macro_score": 0.4412305470345044,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.513374296739577
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4412305470345044
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 1
+      },
+      {
+        "global_step": 12400,
+        "macro_score": 0.44095795574408464,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.51182153946232
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.44095795574408464
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 12600,
+        "macro_score": 0.4403002262182502,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.5080749255990016
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4403002262182502
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 1
+      },
+      {
+        "global_step": 12800,
+        "macro_score": 0.43994682453198336,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.5060618493950595
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.43994682453198336
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 1
+      },
+      {
+        "global_step": 13000,
+        "macro_score": 0.43963942923031774,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.504310838601864
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.43963942923031774
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 2
+      },
+      {
+        "global_step": 13200,
+        "macro_score": 0.43938448783003814,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.502858620103068
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.43938448783003814
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 3
+      },
+      {
+        "global_step": 13400,
+        "macro_score": 0.43914611978389356,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.5015008081284202
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.43914611978389356
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 13600,
+        "macro_score": 0.4388250230873685,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.4996717503053882
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4388250230873685
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 1
+      },
+      {
+        "global_step": 13800,
+        "macro_score": 0.4382219392332654,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.4962364136817823
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4382219392332654
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 2
+      },
+      {
+        "global_step": 14000,
+        "macro_score": 0.43802826780769444,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.4951332063306264
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.43802826780769444
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 14200,
+        "macro_score": 0.4375107255588284,
+        "domain_losses": {
+          "datos\\data2.txt [holdout 5%]": 2.4921851389438165
+        },
+        "baseline_ratios": {
+          "datos\\data2.txt [holdout 5%]": 0.4375107255588284
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 1
+      }
+    ],
+    "last_growth_global_step": 14200,
+    "last_growth_score": 0.4375107255588284,
+    "growth_trial_assessed_for_step": null,
+    "growth_trials_since_best": 0,
+    "best_step": 14200,
+    "best_checkpoint_path": "C:\\Users\\HP\\Desktop\\personalidad\\en proceso\\LLM\\sovereign_growing_llm\\checkpoints\\etapaCFULL.best.pt",
+    "stop_reason": null,
+    "last_architecture": {
+      "capacity": 64,
+      "depth": 3,
+      "d_model": 64,
+      "heads": 4,
+      "context": 384,
+      "vocab_size": 256
+    }
+  },
+  "best_checkpoint_path": "C:\\Users\\HP\\Desktop\\personalidad\\en proceso\\LLM\\sovereign_growing_llm\\checkpoints\\etapaCFULL.best.pt",
+  "diagnosis": {
+    "growth_events": [
+      {
+        "step": 4200,
+        "type": "width",
+        "old_architecture": {
+          "capacity": 32,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "new_architecture": {
+          "capacity": 48,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "old_capacity": 32,
+        "new_capacity": 48,
+        "old_depth": 1,
+        "new_depth": 1,
+        "validation_plateau_gain": 0.009156023170426082,
+        "training_plateau_gain": 0.009653080258437068,
+        "long_validation_plateau_gain": 0.027291723204229634,
+        "long_training_plateau_gain": 0.028598158925103756,
+        "generalization_gap": 0.031682059002339155,
+        "capacity_pressure": true,
+        "block_reports_before_growth": [
+          {
+            "created_neurons": 71,
+            "created_paths": 142,
+            "pruned_paths": 305,
+            "pruned_neurons": 63,
+            "conserved_paths": 432328,
+            "conserved_neurons": 10132,
+            "mutated_paths": 1638,
+            "mutated_neurons": 32,
+            "cycles": 4200,
+            "active_neurons": 32,
+            "recently_used_neurons": 30,
+            "capacity": 32,
+            "active_ratio": 1.0,
+            "used_ratio": 0.9375
+          }
+        ]
+      },
+      {
+        "step": 6200,
+        "type": "depth",
+        "old_architecture": {
+          "capacity": 48,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "new_architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "old_capacity": 48,
+        "new_capacity": 48,
+        "old_depth": 1,
+        "new_depth": 2,
+        "validation_plateau_gain": 0.0042650500811485465,
+        "training_plateau_gain": 0.004838337174075803,
+        "long_validation_plateau_gain": 0.011986614716564196,
+        "long_training_plateau_gain": 0.01199083689293533,
+        "generalization_gap": 0.031746282455262634,
+        "capacity_pressure": true,
+        "block_reports_before_growth": [
+          {
+            "created_neurons": 111,
+            "created_paths": 222,
+            "pruned_paths": 368,
+            "pruned_neurons": 94,
+            "conserved_paths": 619835,
+            "conserved_neurons": 16256,
+            "mutated_paths": 1666,
+            "mutated_neurons": 36,
+            "cycles": 6200,
+            "active_neurons": 41,
+            "recently_used_neurons": 36,
+            "capacity": 48,
+            "active_ratio": 0.8541666666666666,
+            "used_ratio": 0.75
+          }
+        ]
+      },
+      {
+        "step": 7800,
+        "type": "attention",
+        "old_architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "new_architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "old_capacity": 48,
+        "new_capacity": 48,
+        "old_depth": 2,
+        "new_depth": 2,
+        "validation_plateau_gain": 0.004086788664239487,
+        "training_plateau_gain": 0.0047537671316679134,
+        "long_validation_plateau_gain": 0.010891663565271329,
+        "long_training_plateau_gain": 0.009974612070517298,
+        "generalization_gap": 0.030002648177188406,
+        "capacity_pressure": true,
+        "block_reports_before_growth": [
+          {
+            "created_neurons": 141,
+            "created_paths": 282,
+            "pruned_paths": 398,
+            "pruned_neurons": 117,
+            "conserved_paths": 768502,
+            "conserved_neurons": 22526,
+            "mutated_paths": 1705,
+            "mutated_neurons": 46,
+            "cycles": 7800,
+            "active_neurons": 48,
+            "recently_used_neurons": 48,
+            "capacity": 48,
+            "active_ratio": 1.0,
+            "used_ratio": 1.0
+          },
+          {
+            "created_neurons": 31,
+            "created_paths": 62,
+            "pruned_paths": 837,
+            "pruned_neurons": 7,
+            "conserved_paths": 104488,
+            "conserved_neurons": 5662,
+            "mutated_paths": 750,
+            "mutated_neurons": 46,
+            "cycles": 1600,
+            "active_neurons": 48,
+            "recently_used_neurons": 47,
+            "capacity": 48,
+            "active_ratio": 1.0,
+            "used_ratio": 0.9791666666666666
+          }
+        ]
+      },
+      {
+        "step": 9400,
+        "type": "context",
+        "old_architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "new_architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "old_capacity": 48,
+        "new_capacity": 48,
+        "old_depth": 2,
+        "new_depth": 2,
+        "validation_plateau_gain": 0.005366652706441877,
+        "training_plateau_gain": 0.003087509139290329,
+        "long_validation_plateau_gain": 0.012298666194755037,
+        "long_training_plateau_gain": 0.008901057723534594,
+        "generalization_gap": 0.029400497152633317,
+        "capacity_pressure": true,
+        "block_reports_before_growth": [
+          {
+            "created_neurons": 146,
+            "created_paths": 292,
+            "pruned_paths": 1962,
+            "pruned_neurons": 122,
+            "conserved_paths": 911812,
+            "conserved_neurons": 29810,
+            "mutated_paths": 1785,
+            "mutated_neurons": 49,
+            "cycles": 9400,
+            "active_neurons": 48,
+            "recently_used_neurons": 47,
+            "capacity": 48,
+            "active_ratio": 1.0,
+            "used_ratio": 0.9791666666666666
+          },
+          {
+            "created_neurons": 32,
+            "created_paths": 64,
+            "pruned_paths": 2377,
+            "pruned_neurons": 8,
+            "conserved_paths": 202119,
+            "conserved_neurons": 12221,
+            "mutated_paths": 753,
+            "mutated_neurons": 48,
+            "cycles": 3200,
+            "active_neurons": 48,
+            "recently_used_neurons": 45,
+            "capacity": 48,
+            "active_ratio": 1.0,
+            "used_ratio": 0.9375
+          }
+        ]
+      },
+      {
+        "step": 11000,
+        "type": "width",
+        "old_architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "new_architecture": {
+          "capacity": 64,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "old_capacity": 48,
+        "new_capacity": 64,
+        "old_depth": 2,
+        "new_depth": 2,
+        "validation_plateau_gain": 0.003906874821385719,
+        "training_plateau_gain": 0.004514687732243582,
+        "long_validation_plateau_gain": 0.01291804598719722,
+        "long_training_plateau_gain": 0.011076921323646653,
+        "generalization_gap": 0.026673097195660276,
+        "capacity_pressure": true,
+        "block_reports_before_growth": [
+          {
+            "created_neurons": 150,
+            "created_paths": 300,
+            "pruned_paths": 1986,
+            "pruned_neurons": 126,
+            "conserved_paths": 1055466,
+            "conserved_neurons": 37343,
+            "mutated_paths": 1846,
+            "mutated_neurons": 50,
+            "cycles": 11000,
+            "active_neurons": 48,
+            "recently_used_neurons": 48,
+            "capacity": 48,
+            "active_ratio": 1.0,
+            "used_ratio": 1.0
+          },
+          {
+            "created_neurons": 34,
+            "created_paths": 68,
+            "pruned_paths": 2410,
+            "pruned_neurons": 10,
+            "conserved_paths": 298387,
+            "conserved_neurons": 18654,
+            "mutated_paths": 757,
+            "mutated_neurons": 50,
+            "cycles": 4800,
+            "active_neurons": 48,
+            "recently_used_neurons": 47,
+            "capacity": 48,
+            "active_ratio": 1.0,
+            "used_ratio": 0.9791666666666666
+          }
+        ]
+      },
+      {
+        "step": 12600,
+        "type": "depth",
+        "old_architecture": {
+          "capacity": 64,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "new_architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "old_capacity": 64,
+        "new_capacity": 64,
+        "old_depth": 2,
+        "new_depth": 3,
+        "validation_plateau_gain": 0.003957064494266096,
+        "training_plateau_gain": 0.003715139836235194,
+        "long_validation_plateau_gain": 0.007599183025978638,
+        "long_training_plateau_gain": 0.004834034079344629,
+        "generalization_gap": 0.022678572066512317,
+        "capacity_pressure": true,
+        "block_reports_before_growth": [
+          {
+            "created_neurons": 182,
+            "created_paths": 364,
+            "pruned_paths": 2016,
+            "pruned_neurons": 146,
+            "conserved_paths": 1199959,
+            "conserved_neurons": 45634,
+            "mutated_paths": 1874,
+            "mutated_neurons": 57,
+            "cycles": 12600,
+            "active_neurons": 60,
+            "recently_used_neurons": 57,
+            "capacity": 64,
+            "active_ratio": 0.9375,
+            "used_ratio": 0.890625
+          },
+          {
+            "created_neurons": 64,
+            "created_paths": 128,
+            "pruned_paths": 2435,
+            "pruned_neurons": 24,
+            "conserved_paths": 391655,
+            "conserved_neurons": 26185,
+            "mutated_paths": 788,
+            "mutated_neurons": 65,
+            "cycles": 6400,
+            "active_neurons": 64,
+            "recently_used_neurons": 59,
+            "capacity": 64,
+            "active_ratio": 1.0,
+            "used_ratio": 0.921875
+          }
+        ]
+      },
+      {
+        "step": 14200,
+        "type": "attention",
+        "old_architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "new_architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 64,
+          "heads": 4,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "old_capacity": 64,
+        "new_capacity": 64,
+        "old_depth": 3,
+        "new_depth": 3,
+        "validation_plateau_gain": 0.0029950377927249446,
+        "training_plateau_gain": 0.0011040905996509375,
+        "long_validation_plateau_gain": 0.0055372577714283356,
+        "long_training_plateau_gain": 0.005163666038106641,
+        "generalization_gap": 0.021908248129611035,
+        "capacity_pressure": true,
+        "block_reports_before_growth": [
+          {
+            "created_neurons": 209,
+            "created_paths": 418,
+            "pruned_paths": 2047,
+            "pruned_neurons": 169,
+            "conserved_paths": 1345610,
+            "conserved_neurons": 54945,
+            "mutated_paths": 1899,
+            "mutated_neurons": 62,
+            "cycles": 14200,
+            "active_neurons": 64,
+            "recently_used_neurons": 62,
+            "capacity": 64,
+            "active_ratio": 1.0,
+            "used_ratio": 0.96875
+          },
+          {
+            "created_neurons": 66,
+            "created_paths": 132,
+            "pruned_paths": 2443,
+            "pruned_neurons": 26,
+            "conserved_paths": 478947,
+            "conserved_neurons": 34878,
+            "mutated_paths": 794,
+            "mutated_neurons": 68,
+            "cycles": 8000,
+            "active_neurons": 64,
+            "recently_used_neurons": 60,
+            "capacity": 64,
+            "active_ratio": 1.0,
+            "used_ratio": 0.9375
+          },
+          {
+            "created_neurons": 32,
+            "created_paths": 64,
+            "pruned_paths": 1502,
+            "pruned_neurons": 1,
+            "conserved_paths": 98391,
+            "conserved_neurons": 6043,
+            "mutated_paths": 849,
+            "mutated_neurons": 50,
+            "cycles": 1600,
+            "active_neurons": 55,
+            "recently_used_neurons": 52,
+            "capacity": 64,
+            "active_ratio": 0.859375,
+            "used_ratio": 0.8125
+          }
+        ]
+      }
+    ]
+  }
+}

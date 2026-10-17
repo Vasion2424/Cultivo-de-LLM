@@ -1,0 +1,863 @@
+{
+  "dataset": "datos\\data3.txt",
+  "replay_dataset": "datos\\data2.txt",
+  "steps_this_run": 3200,
+  "global_step": 23200,
+  "autosave": true,
+  "autosave_stage": "manual_interrupt",
+  "autosave_interval": 20000,
+  "interrupted_by_user": true,
+  "final_config": {
+    "capacity": 64,
+    "depth": 3,
+    "d_model": 64,
+    "heads": 4,
+    "context": 576,
+    "vocab_size": 256
+  },
+  "last_training_loss": 2.140275478363037,
+  "train_probe_loss_at_save": 1.8850370418048867,
+  "validation_loss_at_save": 1.941552505766479,
+  "initial_eval": {
+    "datos\\data3.txt [holdout 5%]": 1.8618167644879469,
+    "datos\\data1_val.txt": 2.451598297955599,
+    "datos\\data2_val.txt": 2.4342089535914595,
+    "datos\\data3_val.txt": 1.8241702647848639
+  },
+  "cultivation_control": {
+    "version": 1,
+    "eval_signature": [
+      "datos\\data1_val.txt",
+      "datos\\data2_val.txt",
+      "datos\\data3.txt [holdout 5%]",
+      "datos\\data3_val.txt"
+    ],
+    "baseline_eval": {
+      "datos\\data3.txt [holdout 5%]": 1.8954755535145256,
+      "datos\\data1_val.txt": 2.4689374493076444,
+      "datos\\data2_val.txt": 2.448379958734019,
+      "datos\\data3_val.txt": 1.8553474626145843
+    },
+    "best_domain_losses": {
+      "datos\\data3.txt [holdout 5%]": 1.8108739111050125,
+      "datos\\data1_val.txt": 2.4302400889021536,
+      "datos\\data2_val.txt": 2.41109407898573,
+      "datos\\data3_val.txt": 1.770394796678234
+    },
+    "best_macro_losses": {
+      "datos\\data3.txt [holdout 5%]": 1.8108739111050125,
+      "datos\\data1_val.txt": 2.4302400889021536,
+      "datos\\data2_val.txt": 2.41109407898573,
+      "datos\\data3_val.txt": 1.770394796678234
+    },
+    "best_macro_score": 0.9696690098634857,
+    "best_checkpoint_score": 0.9696690098634857,
+    "patience_reference_score": 0.9696690098634857,
+    "stale_evaluations": 7,
+    "total_evaluations": 19,
+    "evaluations_since_growth": 7,
+    "growth_validation_history": [
+      1.049379202301071,
+      1.0415339736085674,
+      1.0344502421762747,
+      1.0287542237783474,
+      1.023066233396269,
+      1.0180265290805477,
+      1.0126913495152101
+    ],
+    "growth_train_history": [
+      1.984195132203743,
+      1.9683326532109842,
+      1.9476397475572227,
+      1.9368753173589677,
+      1.919610961571294,
+      1.907958665823794,
+      1.8850370418048867
+    ],
+    "evaluation_history": [
+      {
+        "global_step": 19400,
+        "macro_score": 1.0039361023998197,
+        "domain_losses": {
+          "datos\\data3.txt [holdout 5%]": 1.9151974026964045,
+          "datos\\data1_val.txt": 2.460569789029791,
+          "datos\\data2_val.txt": 2.4434944629149733,
+          "datos\\data3_val.txt": 1.8752447402539334
+        },
+        "baseline_ratios": {
+          "datos\\data3.txt [holdout 5%]": 1.0104046971987115,
+          "datos\\data1_val.txt": 0.9966108253247971,
+          "datos\\data2_val.txt": 0.9980046006333217,
+          "datos\\data3_val.txt": 1.0107242864424486
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 64,
+          "heads": 4,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 1
+      },
+      {
+        "global_step": 19600,
+        "macro_score": 0.9936204794275837,
+        "domain_losses": {
+          "datos\\data3.txt [holdout 5%]": 1.8794663594225411,
+          "datos\\data1_val.txt": 2.456587798194372,
+          "datos\\data2_val.txt": 2.438021310577812,
+          "datos\\data3_val.txt": 1.8408029290476455
+        },
+        "baseline_ratios": {
+          "datos\\data3.txt [holdout 5%]": 0.9915539960078616,
+          "datos\\data1_val.txt": 0.9949979894724608,
+          "datos\\data2_val.txt": 0.9957691827531691,
+          "datos\\data3_val.txt": 0.9921607494768433
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 64,
+          "heads": 4,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 19800,
+        "macro_score": 0.9919494323352898,
+        "domain_losses": {
+          "datos\\data3.txt [holdout 5%]": 1.8714921437852092,
+          "datos\\data1_val.txt": 2.4592188325095523,
+          "datos\\data2_val.txt": 2.4400086375436034,
+          "datos\\data3_val.txt": 1.8327237074824112
+        },
+        "baseline_ratios": {
+          "datos\\data3.txt [holdout 5%]": 0.9873470223950674,
+          "datos\\data1_val.txt": 0.9960636439773647,
+          "datos\\data2_val.txt": 0.9965808733401232,
+          "datos\\data3_val.txt": 0.9878061896286039
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 64,
+          "heads": 4,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 20000,
+        "macro_score": 0.9881569409369522,
+        "domain_losses": {
+          "datos\\data3.txt [holdout 5%]": 1.8618167644879469,
+          "datos\\data1_val.txt": 2.451598297955599,
+          "datos\\data2_val.txt": 2.4342089535914595,
+          "datos\\data3_val.txt": 1.8241702647848639
+        },
+        "baseline_ratios": {
+          "datos\\data3.txt [holdout 5%]": 0.982242562314154,
+          "datos\\data1_val.txt": 0.992977079529938,
+          "datos\\data2_val.txt": 0.9942120890623991,
+          "datos\\data3_val.txt": 0.9831960328413175
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 64,
+          "heads": 4,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 20200,
+        "macro_score": 0.9875911704106104,
+        "domain_losses": {
+          "datos\\data3.txt [holdout 5%]": 1.8591234691311418,
+          "datos\\data1_val.txt": 2.4552058125103473,
+          "datos\\data2_val.txt": 2.4354551392187314,
+          "datos\\data3_val.txt": 1.8189524355412097
+        },
+        "baseline_ratios": {
+          "datos\\data3.txt [holdout 5%]": 0.9808216548527988,
+          "datos\\data1_val.txt": 0.9944382403040839,
+          "datos\\data2_val.txt": 0.9947210728183012,
+          "datos\\data3_val.txt": 0.9803837136672576
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 64,
+          "heads": 4,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 1
+      },
+      {
+        "global_step": 20400,
+        "macro_score": 0.98316553997138,
+        "domain_losses": {
+          "datos\\data3.txt [holdout 5%]": 1.8479872550300591,
+          "datos\\data1_val.txt": 2.447968987258813,
+          "datos\\data2_val.txt": 2.4299167014259195,
+          "datos\\data3_val.txt": 1.806643812464131
+        },
+        "baseline_ratios": {
+          "datos\\data3.txt [holdout 5%]": 0.9749464991007585,
+          "datos\\data1_val.txt": 0.9915070906090749,
+          "datos\\data2_val.txt": 0.9924589901815541,
+          "datos\\data3_val.txt": 0.9737495799941326
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 64,
+          "heads": 4,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 20600,
+        "macro_score": 0.9799143713353216,
+        "domain_losses": {
+          "datos\\data3.txt [holdout 5%]": 1.8378774482859803,
+          "datos\\data1_val.txt": 2.4452154200560132,
+          "datos\\data2_val.txt": 2.4259123782148846,
+          "datos\\data3_val.txt": 1.7975150590394335
+        },
+        "baseline_ratios": {
+          "datos\\data3.txt [holdout 5%]": 0.9696128472236168,
+          "datos\\data1_val.txt": 0.9903918062977726,
+          "datos\\data2_val.txt": 0.9908234910847941,
+          "datos\\data3_val.txt": 0.9688293407351029
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 64,
+          "heads": 4,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 20800,
+        "macro_score": 0.9811900329240207,
+        "domain_losses": {
+          "datos\\data3.txt [holdout 5%]": 1.8373086874658278,
+          "datos\\data1_val.txt": 2.4515881897855505,
+          "datos\\data2_val.txt": 2.4317384022192607,
+          "datos\\data3_val.txt": 1.7983350987989795
+        },
+        "baseline_ratios": {
+          "datos\\data3.txt [holdout 5%]": 0.9693127848888123,
+          "datos\\data1_val.txt": 0.9929729853921738,
+          "datos\\data2_val.txt": 0.9932030335179827,
+          "datos\\data3_val.txt": 0.9692713278971141
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 64,
+          "heads": 4,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 1
+      },
+      {
+        "global_step": 21000,
+        "macro_score": 0.9759187601756124,
+        "domain_losses": {
+          "datos\\data3.txt [holdout 5%]": 1.8255782229873516,
+          "datos\\data1_val.txt": 2.441171594109603,
+          "datos\\data2_val.txt": 2.4226523426216398,
+          "datos\\data3_val.txt": 1.7854101630204582
+        },
+        "baseline_ratios": {
+          "datos\\data3.txt [holdout 5%]": 0.9631241192229714,
+          "datos\\data1_val.txt": 0.9887539252135256,
+          "datos\\data2_val.txt": 0.9894919838644317,
+          "datos\\data3_val.txt": 0.9623050124015211
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 64,
+          "heads": 4,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 21200,
+        "macro_score": 0.9732998136947644,
+        "domain_losses": {
+          "datos\\data3.txt [holdout 5%]": 1.818724319903121,
+          "datos\\data1_val.txt": 2.4388391027055234,
+          "datos\\data2_val.txt": 2.4189413955438344,
+          "datos\\data3_val.txt": 1.777247657352041
+        },
+        "baseline_ratios": {
+          "datos\\data3.txt [holdout 5%]": 0.959508191245677,
+          "datos\\data1_val.txt": 0.9878091903014549,
+          "datos\\data2_val.txt": 0.9879763093611474,
+          "datos\\data3_val.txt": 0.9579055638707783
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 64,
+          "heads": 4,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 21400,
+        "macro_score": 0.9719766593318981,
+        "domain_losses": {
+          "datos\\data3.txt [holdout 5%]": 1.8181825635865132,
+          "datos\\data1_val.txt": 2.4307980179197344,
+          "datos\\data2_val.txt": 2.412314154903022,
+          "datos\\data3_val.txt": 1.7790230116101875
+        },
+        "baseline_ratios": {
+          "datos\\data3.txt [holdout 5%]": 0.9592223757332569,
+          "datos\\data1_val.txt": 0.9845522893264852,
+          "datos\\data2_val.txt": 0.9852695233424286,
+          "datos\\data3_val.txt": 0.9588624489254217
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 64,
+          "heads": 4,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 21600,
+        "macro_score": 0.9696690098634857,
+        "domain_losses": {
+          "datos\\data3.txt [holdout 5%]": 1.8108739111050125,
+          "datos\\data1_val.txt": 2.4302400889021536,
+          "datos\\data2_val.txt": 2.41109407898573,
+          "datos\\data3_val.txt": 1.770394796678234
+        },
+        "baseline_ratios": {
+          "datos\\data3.txt [holdout 5%]": 0.9553665346658533,
+          "datos\\data1_val.txt": 0.9843263099207545,
+          "datos\\data2_val.txt": 0.9847712036625359,
+          "datos\\data3_val.txt": 0.9542119912047992
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 64,
+          "heads": 4,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 0
+      },
+      {
+        "global_step": 21800,
+        "macro_score": 1.049379202301071,
+        "domain_losses": {
+          "datos\\data3.txt [holdout 5%]": 2.040170594394024,
+          "datos\\data1_val.txt": 2.496351461893153,
+          "datos\\data2_val.txt": 2.481123211708233,
+          "datos\\data3_val.txt": 2.0068497070697866
+        },
+        "baseline_ratios": {
+          "datos\\data3.txt [holdout 5%]": 1.0763370651819855,
+          "datos\\data1_val.txt": 1.0111035670803228,
+          "datos\\data2_val.txt": 1.0133734361194267,
+          "datos\\data3_val.txt": 1.081657073679182
+        },
+        "retention_penalty": 0.003761416785841739,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 64,
+          "heads": 4,
+          "context": 576,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 1
+      },
+      {
+        "global_step": 22000,
+        "macro_score": 1.0415339736085674,
+        "domain_losses": {
+          "datos\\data3.txt [holdout 5%]": 2.0223128505226535,
+          "datos\\data1_val.txt": 2.485803236688314,
+          "datos\\data2_val.txt": 2.4707747519421317,
+          "datos\\data3_val.txt": 1.9906847782814558
+        },
+        "baseline_ratios": {
+          "datos\\data3.txt [holdout 5%]": 1.066915817918596,
+          "datos\\data1_val.txt": 1.0068311926595788,
+          "datos\\data2_val.txt": 1.0091467801507787,
+          "datos\\data3_val.txt": 1.0729444583259635
+        },
+        "retention_penalty": 0.0025744113448381532,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 64,
+          "heads": 4,
+          "context": 576,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 2
+      },
+      {
+        "global_step": 22200,
+        "macro_score": 1.0344502421762747,
+        "domain_losses": {
+          "datos\\data3.txt [holdout 5%]": 2.0034552108545998,
+          "datos\\data1_val.txt": 2.48432791584192,
+          "datos\\data2_val.txt": 2.468323819338116,
+          "datos\\data3_val.txt": 1.9698316458284153
+        },
+        "baseline_ratios": {
+          "datos\\data3.txt [holdout 5%]": 1.056967053539605,
+          "datos\\data1_val.txt": 1.0062336397135503,
+          "datos\\data2_val.txt": 1.0081457375653446,
+          "datos\\data3_val.txt": 1.06170498277045
+        },
+        "retention_penalty": 0.0011873887790372177,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 64,
+          "heads": 4,
+          "context": 576,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 3
+      },
+      {
+        "global_step": 22400,
+        "macro_score": 1.0287542237783474,
+        "domain_losses": {
+          "datos\\data3.txt [holdout 5%]": 1.9911273196873425,
+          "datos\\data1_val.txt": 2.4753905923601995,
+          "datos\\data2_val.txt": 2.4594620089563843,
+          "datos\\data3_val.txt": 1.9588729106438105
+        },
+        "baseline_ratios": {
+          "datos\\data3.txt [holdout 5%]": 1.0504632022267248,
+          "datos\\data1_val.txt": 1.0026137329053697,
+          "datos\\data2_val.txt": 1.0045262787676532,
+          "datos\\data3_val.txt": 1.0557984151838258
+        },
+        "retention_penalty": 0.0004038165074541269,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 64,
+          "heads": 4,
+          "context": 576,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 4
+      },
+      {
+        "global_step": 22600,
+        "macro_score": 1.023066233396269,
+        "domain_losses": {
+          "datos\\data3.txt [holdout 5%]": 1.973007304641583,
+          "datos\\data1_val.txt": 2.473557154179217,
+          "datos\\data2_val.txt": 2.4576948812692225,
+          "datos\\data3_val.txt": 1.9401102914106783
+        },
+        "baseline_ratios": {
+          "datos\\data3.txt [holdout 5%]": 1.040903588011621,
+          "datos\\data1_val.txt": 1.0018711307865933,
+          "datos\\data2_val.txt": 1.0038045249071634,
+          "datos\\data3_val.txt": 1.0456856898796978
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 64,
+          "heads": 4,
+          "context": 576,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 5
+      },
+      {
+        "global_step": 22800,
+        "macro_score": 1.0180265290805477,
+        "domain_losses": {
+          "datos\\data3.txt [holdout 5%]": 1.9609161863063473,
+          "datos\\data1_val.txt": 2.465028765990167,
+          "datos\\data2_val.txt": 2.4493737338260475,
+          "datos\\data3_val.txt": 1.9272583515792359
+        },
+        "baseline_ratios": {
+          "datos\\data3.txt [holdout 5%]": 1.034524651436672,
+          "datos\\data1_val.txt": 0.9984168560776728,
+          "datos\\data2_val.txt": 1.0004058908783677,
+          "datos\\data3_val.txt": 1.0387587179294782
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 64,
+          "heads": 4,
+          "context": 576,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 6
+      },
+      {
+        "global_step": 23000,
+        "macro_score": 1.0126913495152101,
+        "domain_losses": {
+          "datos\\data3.txt [holdout 5%]": 1.941552505766479,
+          "datos\\data1_val.txt": 2.4659500100272314,
+          "datos\\data2_val.txt": 2.4491536444744986,
+          "datos\\data3_val.txt": 1.9060921343112558
+        },
+        "baseline_ratios": {
+          "datos\\data3.txt [holdout 5%]": 1.0243089140171284,
+          "datos\\data1_val.txt": 0.9987899898876536,
+          "datos\\data2_val.txt": 1.0003159990497879,
+          "datos\\data3_val.txt": 1.0273504951062704
+        },
+        "retention_penalty": 0.0,
+        "architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 64,
+          "heads": 4,
+          "context": 576,
+          "vocab_size": 256
+        },
+        "stale_evaluations": 7
+      }
+    ],
+    "last_growth_global_step": 21600,
+    "last_growth_score": 0.9696690098634857,
+    "growth_trial_assessed_for_step": null,
+    "growth_trials_since_best": 0,
+    "best_step": 21600,
+    "best_checkpoint_path": "C:\\Users\\HP\\Desktop\\personalidad\\en proceso\\LLM\\sovereign_growing_llm\\checkpoints\\etapa4_V2.best.pt",
+    "stop_reason": null,
+    "last_architecture": {
+      "capacity": 64,
+      "depth": 3,
+      "d_model": 64,
+      "heads": 4,
+      "context": 576,
+      "vocab_size": 256
+    }
+  },
+  "best_checkpoint_path": "C:\\Users\\HP\\Desktop\\personalidad\\en proceso\\LLM\\sovereign_growing_llm\\checkpoints\\etapa4_V2.best.pt",
+  "diagnosis": {
+    "growth_events": [
+      {
+        "step": 5800,
+        "type": "width",
+        "old_architecture": {
+          "capacity": 32,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "new_architecture": {
+          "capacity": 48,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "old_capacity": 32,
+        "new_capacity": 48,
+        "old_depth": 1,
+        "new_depth": 1,
+        "validation_plateau_gain": 0.008138475588074887,
+        "training_plateau_gain": 0.008950705809284525,
+        "generalization_gap": 0.0137344122403889
+      },
+      {
+        "step": 7000,
+        "type": "depth",
+        "old_architecture": {
+          "capacity": 48,
+          "depth": 1,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "new_architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "old_capacity": 48,
+        "new_capacity": 48,
+        "old_depth": 1,
+        "new_depth": 2,
+        "validation_plateau_gain": 0.0070669462352312236,
+        "training_plateau_gain": 0.008224691934871816,
+        "generalization_gap": 0.014654290926864233
+      },
+      {
+        "step": 8000,
+        "type": "attention",
+        "old_architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 32,
+          "heads": 2,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "new_architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "old_capacity": 48,
+        "new_capacity": 48,
+        "old_depth": 2,
+        "new_depth": 2,
+        "validation_plateau_gain": 0.004443176704924659,
+        "training_plateau_gain": 0.0047199794552231274,
+        "generalization_gap": 0.015485354325912429
+      },
+      {
+        "step": 8800,
+        "type": "context",
+        "old_architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 256,
+          "vocab_size": 256
+        },
+        "new_architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "old_capacity": 48,
+        "new_capacity": 48,
+        "old_depth": 2,
+        "new_depth": 2,
+        "validation_plateau_gain": 0.005754467358921989,
+        "training_plateau_gain": 0.005939390178942148,
+        "generalization_gap": 0.016793050661097438
+      },
+      {
+        "step": 9800,
+        "type": "width",
+        "old_architecture": {
+          "capacity": 48,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "new_architecture": {
+          "capacity": 64,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "old_capacity": 48,
+        "new_capacity": 64,
+        "old_depth": 2,
+        "new_depth": 2,
+        "validation_plateau_gain": 0.008473438288744334,
+        "training_plateau_gain": 0.009102986834633947,
+        "generalization_gap": 0.016792587890719485
+      },
+      {
+        "step": 12800,
+        "type": "depth",
+        "old_architecture": {
+          "capacity": 64,
+          "depth": 2,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "new_architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "old_capacity": 64,
+        "new_capacity": 64,
+        "old_depth": 2,
+        "new_depth": 3,
+        "validation_plateau_gain": 0.003921182308562257,
+        "training_plateau_gain": 0.003956506121918746,
+        "generalization_gap": 0.016188131634815698
+      },
+      {
+        "step": 14600,
+        "type": "attention",
+        "old_architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 48,
+          "heads": 3,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "new_architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 64,
+          "heads": 4,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "old_capacity": 64,
+        "new_capacity": 64,
+        "old_depth": 3,
+        "new_depth": 3,
+        "validation_plateau_gain": 0.006805984480682115,
+        "training_plateau_gain": 0.006657168405853927,
+        "generalization_gap": 0.016245723591669876
+      },
+      {
+        "step": 21600,
+        "type": "context",
+        "old_architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 64,
+          "heads": 4,
+          "context": 384,
+          "vocab_size": 256
+        },
+        "new_architecture": {
+          "capacity": 64,
+          "depth": 3,
+          "d_model": 64,
+          "heads": 4,
+          "context": 576,
+          "vocab_size": 256
+        },
+        "old_capacity": 64,
+        "new_capacity": 64,
+        "old_depth": 3,
+        "new_depth": 3,
+        "validation_plateau_gain": 0.006403965747110032,
+        "training_plateau_gain": 0.007849197241143462,
+        "long_validation_plateau_gain": 0.018147347894648762,
+        "long_training_plateau_gain": 0.028060987765258213,
+        "generalization_gap": 0.03121224963497032,
+        "capacity_pressure": true,
+        "block_reports_before_growth": [
+          {
+            "created_neurons": 308,
+            "created_paths": 616,
+            "pruned_paths": 3947,
+            "pruned_neurons": 268,
+            "conserved_paths": 2083262,
+            "conserved_neurons": 83602,
+            "mutated_paths": 2442,
+            "mutated_neurons": 68,
+            "cycles": 21600,
+            "active_neurons": 64,
+            "recently_used_neurons": 52,
+            "capacity": 64,
+            "active_ratio": 1.0,
+            "used_ratio": 0.8125
+          },
+          {
+            "created_neurons": 77,
+            "created_paths": 154,
+            "pruned_paths": 4275,
+            "pruned_neurons": 37,
+            "conserved_paths": 962062,
+            "conserved_neurons": 68514,
+            "mutated_paths": 863,
+            "mutated_neurons": 69,
+            "cycles": 14600,
+            "active_neurons": 64,
+            "recently_used_neurons": 49,
+            "capacity": 64,
+            "active_ratio": 1.0,
+            "used_ratio": 0.765625
+          },
+          {
+            "created_neurons": 70,
+            "created_paths": 140,
+            "pruned_paths": 3326,
+            "pruned_neurons": 30,
+            "conserved_paths": 530174,
+            "conserved_neurons": 39155,
+            "mutated_paths": 1008,
+            "mutated_neurons": 68,
+            "cycles": 8800,
+            "active_neurons": 64,
+            "recently_used_neurons": 46,
+            "capacity": 64,
+            "active_ratio": 1.0,
+            "used_ratio": 0.71875
+          }
+        ]
+      }
+    ]
+  }
+}
