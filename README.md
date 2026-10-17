@@ -108,6 +108,13 @@ El proyecto incluye pruebas de **daño y reparación** (`mini_sovereign_lm_damag
 
 ---
 
+### Datos usados
+
+```bash
+preparar_datos.py 
+```
+---
+
 ### Reproducibilidad 
 
 ```bash
