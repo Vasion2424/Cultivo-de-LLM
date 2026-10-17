@@ -126,7 +126,7 @@ sovereign_growing.py --dataset datos\(aqui datos para entrenar) --steps (numero 
 
 ```bash
 sovereign_growing.py --dataset datos\data2.txt --steps 100000 --autosave-interval 20000 --out checkpoints\etapaCFULL.pt  
-sovereign_growing_autoscale.py --dataset datos\data3.txt --replay-dataset datos\data2.txt --checkpoint checkpoints\etapa2.pt --steps 1000 --autosave-interval 100 --eval-dataset datos\data1_val.txt --eval-dataset datos\data2_val.txt --eval-dataset datos\data3_val.txt --out checkpoints\etapa3.pt
+sovereign_growing.py --dataset datos\data3.txt --replay-dataset datos\data2.txt --checkpoint checkpoints\etapa2.pt --steps 1000 --autosave-interval 100 --eval-dataset datos\data1_val.txt --eval-dataset datos\data2_val.txt --eval-dataset datos\data3_val.txt --out checkpoints\etapa3.pt
 sovereign_growing.py --chat --checkpoint checkpoints\etapa2.pt
 ```
 
